@@ -6,6 +6,6 @@ const app = express();
 
 const PORT = process.env.PORT || 8080;
  
-app.listen(PORT, (req,res) => {
+app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
 })
