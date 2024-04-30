@@ -1,10 +1,11 @@
 import '@/App.css';
-import { Button } from '@/components/ui/button';
+import Navbar from '@/components/Navbar';
 
+Navbar
 function App() {
   return (
-    <div className='p-4'>
-      <Button variant="outline" size="sm">Click</Button>
+    <div>
+      <Navbar />
     </div>
   )
 }
